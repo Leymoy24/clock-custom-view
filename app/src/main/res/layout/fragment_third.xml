@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:clock="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.example.clockcustomview.ClockCustomView
+            android:id="@+id/clockView1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            clock:baseColor="@color/sky_blue"
+            clock:dotsColor="@color/blue"
+            clock:hourHandColor="@color/blue"
+            clock:minuteHandColor="@color/blue"
+            clock:secondHandColor="@color/dark_blue"
+            clock:textColor="@color/blue"
+            clock:frameColor="@color/dark_blue" />
+
+        <com.example.clockcustomview.ClockCustomView
+            android:id="@+id/clockView2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            clock:baseColor="@color/black"
+            clock:dotsColor="@color/white"
+            clock:hourHandColor="@color/white"
+            clock:minuteHandColor="@color/white"
+            clock:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.example.clockcustomview.ClockCustomView
+            android:id="@+id/clockView3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            clock:baseColor="@color/dark_dark_green"
+            clock:dotsColor="@color/light_green"
+            clock:hourHandColor="@color/light_green"
+            clock:minuteHandColor="@color/light_green"
+            clock:secondHandColor="@color/red"
+            clock:textColor="@color/light_green"
+            clock:frameColor="@color/dark_dark_dark_green" />
+
+        <com.example.clockcustomview.ClockCustomView
+            android:id="@+id/clockView4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            clock:baseColor="@color/teal"
+            clock:dotsColor="@color/tomato"
+            clock:hourHandColor="@color/light_brown"
+            clock:minuteHandColor="@color/light_brown"
+            clock:secondHandColor="@color/dark_tomato"
+            clock:textColor="@color/tomato"
+            clock:frameColor="@color/brown" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.example.clockcustomview.ClockCustomView
+            android:id="@+id/clockView5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            clock:baseColor="@color/dark_violet"
+            clock:dotsColor="@color/sky_violet"
+            clock:hourHandColor="@color/sky_violet"
+            clock:minuteHandColor="@color/sky_violet"
+            clock:secondHandColor="@color/dark_dark_violet"
+            clock:textColor="@color/sky_violet"
+            clock:frameColor="@color/dark_dark_violet" />
+
+        <com.example.clockcustomview.ClockCustomView
+            android:id="@+id/clockView6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            clock:baseColor="@color/dark_blue_blue"
+            clock:dotsColor="@color/light_gray_pink"
+            clock:hourHandColor="@color/light_gray_pink"
+            clock:minuteHandColor="@color/light_gray_pink"
+            clock:secondHandColor="@color/red"
+            clock:textColor="@color/light_gray_pink"
+            clock:frameColor="@color/dark_blue_blue" />
+
+    </LinearLayout>
+
+</LinearLayout>

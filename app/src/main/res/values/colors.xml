@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#1C1C1C</color>
+    <color name="white">#EDE7E7</color>
+    <color name="red">#C60000</color>
+    <color name="light_gray">#DFDFDF</color>
+    <color name="borderClockColor">#B1B1B1</color>
+    <color name="yellow">#ffd100</color>
+    <color name="black_gray">#232323</color>
+    
+    <color name="sky_blue">#caf0f8</color>
+    <color name="dark_sky_blue">#48cae4</color>
+    <color name="blue">#0077b6</color>
+    <color name="dark_blue">#03045e</color>
+    
+    <color name="light_green">#95d5b2</color>
+    <color name="green">#74c69d</color>
+    <color name="dark_green">#2d6a4f</color>
+    <color name="dark_dark_green">#1b4332</color>
+    <color name="dark_dark_dark_green">#081c15</color>
+
+    <color name="tomato">#a71d31</color>
+    <color name="dark_tomato">#3f0d12</color>
+    <color name="teal">#f1f0cc</color>
+    <color name="light_brown">#d5bf86</color>
+    <color name="brown">#8d775f</color>
+
+    <color name="sky_violet">#e0aaff</color>
+    <color name="light_violet">#c77dff</color>
+    <color name="violet">#c77dff</color>
+    <color name="dark_violet">#7b2cbf</color>
+    <color name="dark_dark_violet">#3c096c</color>
+
+    <color name="light_gray_pink">#6e5774</color>
+    <color name="gray_pink">#5b5271</color>
+    <color name="dark_gray_pink">#484564</color>
+    <color name="dark_gray">#2a2b47</color>
+    <color name="dark_gray_blue">#242039</color>
+    <color name="dark_blue_blue">#231c35</color>
+
+</resources>

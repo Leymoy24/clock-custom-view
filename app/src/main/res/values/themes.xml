@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ClockCustomView" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="colorSecondaryContainer">@color/white</item>
+        <item name="colorSecondary">@color/black</item>
+        <item name="colorTertiary">@color/borderClockColor</item>
+        <item name="android:navigationBarColor">@color/white</item>
+    </style>
+
+    <style name="Theme.ClockCustomView" parent="Base.Theme.ClockCustomView" />
+</resources>
